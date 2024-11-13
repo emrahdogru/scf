@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Scf.Exceptions": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:22274;http://localhost:22275"
+    }
+  }
+}

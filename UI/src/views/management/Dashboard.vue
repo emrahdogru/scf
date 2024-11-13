@@ -1,0 +1,3 @@
+<template>
+    YÖNETİM DASHBOARD
+</template>

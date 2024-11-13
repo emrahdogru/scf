@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.13" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0" />
+    <PackageReference Include="MongoDB.Bson" Version="2.19.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.25" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Scf.Abstractions\Scf.Abstractions.csproj" />
+    <ProjectReference Include="..\Scf.Domain\Scf.Domain.csproj" />
+    <ProjectReference Include="..\Scf.Database\Scf.Database.csproj" />
+    <ProjectReference Include="..\Scf.Exceptions\Scf.Exceptions.csproj" />
+    <ProjectReference Include="..\Scf.LanguageResources\Scf.LanguageResources.csproj" />
+    <ProjectReference Include="..\Scf.Utility\Scf.Utility.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Scf.Domain</Title>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.13" />
+    <PackageReference Include="MongoDB.Bson" Version="2.19.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Scf.Abstractions\Scf.Abstractions.csproj" />
+    <ProjectReference Include="..\Scf.Database\Scf.Database.csproj" />
+    <ProjectReference Include="..\Scf.Exceptions\Scf.Exceptions.csproj" />
+    <ProjectReference Include="..\Scf.LanguageResources\Scf.LanguageResources.csproj" />
+    <ProjectReference Include="..\Scf.Notifications\Scf.Notifications.csproj" />
+    <ProjectReference Include="..\Scf.Utility\Scf.Utility.csproj" />
+  </ItemGroup>
+</Project>
